@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .cal {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 ratio */
+      height: 0;
+      overflow: hidden;
+    }
+    .cal iframe {
+      border: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* 📱 Mobile screens */
+    @media (max-width: 768px) {
+      .cal {
+        padding-top: 150%; /* taller calendar view on phones */
+      }
+    }
+
+    /* 💻 Larger screens */
+    @media (min-width: 769px) {
+      .cal {
+        padding-top: 70%; /* slightly taller for desktops */
+      }
+    }
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Valley Central School - Excellence in Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="school-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Lala Road, (NH 154), Niscintapur, Hailakandi, Assam - 788164</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>springvalley.assam@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <span>info@svcshailakandi.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="school-title">
+            <div class="container">
+                <a href="index.html"><img  style="width: 170px; height: 170px "  src="images\schoollogo.jpg" alt=""></a>
+                <h1>Spring Valley Central School</h1>
+                <p>Excellence in Education • Nurturing Future Leaders</p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <button class="hamburger" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu">
+                    <div class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#about" class="nav-link" onclick="toggleDropdown(this)">About Us</a>
+                        <div class="dropdown">
+                            <a href="objective.html" class="dropdown-link">Objective & Mission</a>
+                            <a href="principal.html" class="dropdown-link">Principal's Desk</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#academics" class="nav-link" onclick="toggleDropdown(this)">Academics</a>
+                        <div class="dropdown">
+                            <a href="faculty.html" class="dropdown-link">Faculty</a>
+                            <a href="calendar.html" class="dropdown-link">Calendar</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#students" class="nav-link" onclick="toggleDropdown(this)">Students</a>
+                        <div class="dropdown">
+                            <a href="admission.html" class="dropdown-link">Admission</a>
+                            <a href="activities.html" class="dropdown-link">Co-curricular Activities</a>
+                            <a href="tc.html" class="dropdown-link">TC</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="gallery.html" class="nav-link">Photo Gallery</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="news.html" class="nav-link">News & Events</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="disclosure.html" class="nav-link">Mandatory Disclosure</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<body>
+
+  <div class="cal">
+    <iframe 
+      src="https://calendar.google.com/calendar/embed?src=en.indian%23holiday%40group.v.calendar.google.com&ctz=Asia%2FKolkata"
+      frameborder="0" 
+      scrolling="no">
+    </iframe>
+  </div>
+
+</body>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#about">About Us</a>
+                    <a href="objective.html">Objective & Mission</a>
+                    <a href="principal.html">Principal's Desk</a>
+                    <a href="#academics">Academics</a>
+                    <a href="calendar.html">Calendar</a>
+                    <a href="faculty.html">Faculty</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Student Services</h3>
+                    <a href="admission.html">Admission</a>
+                    <a href="#students">Students</a>
+                    <a href="activities.html">Co-curricular Activities</a>
+                    <a href="tc.html">Transfer Certificate</a>
+                    <a href="gallery.html">Photo Gallery</a>
+                    <a href="news.html">News & Events</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Important</h3>
+                    <a href="disclosure.html">Mandatory Disclosure</a>
+                    <a href="fees.html">Fee Structure</a>
+                    <a href="rules.html">Rules & Regulations</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-school"></i>
+                        <span>Spring Valley Central School</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Lala Road, (NH 154), Niscintapur<br>Hailakandi, Assam - 788164</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>springvalley.assam@gmail.com</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-globe"></i>
+                        <span>info@svcshailakandi.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Spring Valley Central School. All rights reserved. | Designed with ❤️ for Education</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

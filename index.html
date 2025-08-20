@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Valley Central School - Excellence in Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="school-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Lala Road, (NH 154), Niscintapur, Hailakandi, Assam - 788164</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>springvalley.assam@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <span>info@svcshailakandi.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="school-title">
+            <div class="container">
+                <a href="index.html"><img  style="width: 170px; height: 170px "  src="images\schoollogo.jpg" alt=""></a>
+                <h1>Spring Valley Central School</h1>
+                <p>Excellence in Education • Nurturing Future Leaders</p>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <button class="hamburger" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="nav-menu">
+                    <div class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#about" class="nav-link" onclick="toggleDropdown(this)">About Us</a>
+                        <div class="dropdown">
+                            <a href="objective.html" class="dropdown-link">Objective & Mission</a>
+                            <a href="principal.html" class="dropdown-link">Principal's Desk</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#academics" class="nav-link" onclick="toggleDropdown(this)">Academics</a>
+                        <div class="dropdown">
+                            <a href="faculty.html" class="dropdown-link">Faculty</a>
+                            <a href="calendar.html" class="dropdown-link">Calendar</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#students" class="nav-link" onclick="toggleDropdown(this)">Students</a>
+                        <div class="dropdown">
+                            <a href="admission.html" class="dropdown-link">Admission</a>
+                            <a href="activities.html" class="dropdown-link">Co-curricular Activities</a>
+                            <a href="tc.html" class="dropdown-link">TC</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="gallery.html" class="nav-link">Photo Gallery</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="news.html" class="nav-link">News & Events</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="disclosure.html" class="nav-link">Mandatory Disclosure</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main  >
+        <body style="font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 20px;">
+            
+        
+        <div class="container">
+            <!-- Carousel Section -->
+            <div class="carousel-container">
+                <div class="carousel-slide active" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 500%22><rect fill=%22%234CAF50%22 width=%221200%22 height=%22500%22/><text x=%22600%22 y=%22250%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2260%22 font-family=%22serif%22>School Campus</text></svg>');">
+                    <div class="carousel-overlay">
+                        <img class="carousal_image" src="images\image.png" alt="">
+                        <h2>Welcome to Spring Valley Central School</h2>
+                        <!-- <p>Where Excellence Meets Opportunity</p> -->
+                    </div>
+                </div>
+                <div class="carousel-slide" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 500%22><rect fill=%22%232196F3%22 width=%221200%22 height=%22500%22/><text x=%22600%22 y=%22250%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2260%22 font-family=%22serif%22>Students Learning</text></svg>');">
+                    <div class="carousel-overlay">
+                        <img class="carousal_image" src="images\image_copy.png" alt="">
+                        <h2>Quality Education</h2>
+                        <p>Nurturing Young Minds for a Bright Future</p>
+                    </div>
+                </div>
+                <div class="carousel-slide" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 1200 500%22><rect fill=%22%23FF9800%22 width=%221200%22 height=%22500%22/><text x=%22600%22 y=%22250%22 text-anchor=%22middle%22 fill=%22white%22 font-size=%2260%22 font-family=%22serif%22>Sports Activities</text></svg>');">
+                    <div class="carousel-overlay">
+                        <img class="carousal_image" src="images\image_copy_2.png" alt="">
+                        <h2>Holistic Development</h2>
+                        <p>Building Character Through Education and Sports</p>
+                    </div>
+                </div>
+                
+                <div class="carousel-dots">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            <!-- Messsage Section-->
+            <!-- <div id="index_right" style="font-family: 'Georgia', serif; background: #fdfdfd; border-left: 5px solid #4a90e2; padding: 18px 22px; margin: 20px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.08); border-radius: 6px;">
+                <h1 style="font-size: 22px; color: #333; margin-bottom: 14px; font-weight: 600; text-align: center;">Spring Valley Central School , Hailakandi</h1>
+                <div class="main-content">
+                    <p class="quotes" style="font-style: italic; font-size: 16px; line-height: 1.6; color: #444; margin-bottom: 12px; position: relative;">
+                        “Education I mean an around drawing out of the best in the child and man, body mind and spirit”.<br>
+                        “Education is the manifestation of performance already in man”.
+                        <br>
+                        <span style="float:right; font-size: 14px; font-weight: 500; color: #4a90e2; margin-top:6px;">– Swami Vivekananda</span>
+                    </p>
+                    <div style="clear:both"></div>
+                    <p style="font-size: 15px; color: #555; line-height: 1.7; text-align: justify;">
+                        Spring Valley Central School, Hailakandi established in the year 2011, is a Co-educational English medium Senior Secondary School. The School is affiliated to the Central Board of Secondary Education, New Delhi. The school is situated in Lala Road Niscintapur, Hailakandi. The Institution is an educational &amp; research initiative of the trust ENR WELFARE FOUNDATION, GUWAHATI.
+                    </p>
+                </div>
+            </div> -->
+            <!-- original website section -->
+             <!-- Header -->
+                <div style="background:#1a3c78; color:white; padding:15px; text-align:center;">
+                    <h1 style="margin:0; font-size:20px;">Spring Valley Central School , Hailakandi</h1>
+                    <p style="font-style:italic; font-size:14px; margin:10px 0; color:#ffdede;">
+                    "Education I mean an around drawing out of the best in the child and man, body mind and spirit". <br>
+                    "Education is the manifestation of performance already in man".
+                    </p>
+                    <p style="margin:0; font-size:13px; font-weight:bold; color:#ffeb99;">– Swami Vivekananda</p>
+                </div>
+
+                <!-- About Section -->
+                <div style="padding:15px; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1); margin:12px; border-radius:6px;">
+                    <p style="font-size:15px; line-height:1.6; text-align:justify;">
+                    Spring Valley Central School, Hailakandi established in the year 2011, is a Co-educational English medium Senior Secondary School. 
+                    The School is affiliated to the Central Board of Secondary Education, New Delhi. 
+                    The school is situated in Lala Road Niscintapur, Hailakandi. 
+                    The Institution is an educational &amp; research initiative of the trust ENR WELFARE FOUNDATION, GUWAHATI.
+                    </p>
+                </div>
+
+                <!-- Info Grid -->
+                <div style="display:flex; flex-wrap:wrap; gap:12px; padding:10px; justify-content:center;">
+
+                    <div style="flex:1; min-width:250px; background:#fff; border-radius:6px; padding:12px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+                    <h3 style="margin:0; color:#2a7c5f; font-size:16px;">Student Corner</h3>
+                    <p style="font-size:14px; line-height:1.5; color:#555;">
+                        Students are like pillars in the institution who give all support and strength to the school by their good….
+                    </p>
+                    <a href="activities.html" style="font-size:13px; color:#e67e22; text-decoration:none;">Read more →</a>
+                    </div>
+
+                    <div style="flex:1; min-width:250px; background:#fff; border-radius:6px; padding:12px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+                    <h3 style="margin:0; color:#1a3c78; font-size:16px;">From Principal's Desk</h3>
+                    <p style="font-size:14px; line-height:1.5; color:#555;">
+                        It is with great pleasure that I welcome you to our school website. Spring Valley Central School, Hailakandi is an English medium….
+                    </p>
+                    <a href="principal.html" style="font-size:13px; color:#e67e22; text-decoration:none;">Read more →</a>
+                    </div>
+
+                    <div style="flex:1; min-width:250px; background:#fff; border-radius:6px; padding:12px; box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+                    <h3 style="margin:0; color:#00796b; font-size:16px;">Calendar</h3>
+                    <p style="font-size:14px; line-height:1.5; color:#555;">
+                        "Keep yourself updated on the upcoming activities, happenings and schedules for the academic year here."
+                    </p>
+                    <a href="calendar.html" style="font-size:13px; color:#e67e22; text-decoration:none;">Read more →</a>
+                    </div>
+
+                </div>
+            <!-- Principal's Message -->
+            <section class="principals-message" id="principal">
+                <div class="container">
+                    <div class="message-content">
+                        <div class="principal-image">
+                            <img src="images\principal.jpg" alt="Principal">
+                        </div>
+                        <div class="message-text">
+                            <h2>Principal's Message</h2>
+                            <p>Welcome to Spring Valley Central School, where we believe in nurturing young minds and shaping future leaders. Our commitment to excellence in education goes beyond academics to include character building, moral values, and holistic development.</p>
+                            <p>At Spring Valley, we strive to create an environment where every student can discover their potential, explore their talents, and develop the skills necessary for success in the 21st century. Our dedicated faculty and state-of-the-art facilities ensure that each child receives personalized attention and quality education.</p>
+                            <p>We invite you to join our school family and be part of this exciting journey of learning and growth.</p>
+                            <p><strong>Ms. Parveen Sultana Barbhuiya <br>Principal</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Students Corner -->
+            <section class="students-corner" id="students-corner">
+                <div class="container">
+                    <h2>Students' Corner</h2>
+                    <p>Explore student achievements, projects, and activities</p>
+                    <a href="activities.html" class="btn-primary" >Visit Students' Corner</a>
+                </div>
+            </section>
+
+            <!-- Maps and Calendar Section -->
+            <div class="info-section">
+                <div class="info-card">
+                    <h3><i class="fas fa-map-marker-alt"></i> Our Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.0052693530442!2d92.54611087536331!3d24.62350327808476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e2422e8340329%3A0x8b55fb3274ad2173!2sSpring%20Valley%20Central%20School!5e0!3m2!1sen!2sin!4v1755598451828!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="info-card">
+                    <h3><i class="fas fa-calendar-alt"></i> School Calendar</h3>
+                    <iframe 
+                        src="https://calendar.google.com/calendar/embed?src=en.indian%23holiday%40group.v.calendar.google.com&ctz=Asia%2FKolkata"
+                        frameborder="0" 
+                        scrolling="no">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        </body>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#about">About Us</a>
+                    <a href="objective.html">Objective & Mission</a>
+                    <a href="principal.html">Principal's Desk</a>
+                    <a href="#academics">Academics</a>
+                    <a href="calendar.html">Calendar</a>
+                    <a href="faculty.html">Faculty</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Student Services</h3>
+                    <a href="admission.html">Admission</a>
+                    <a href="#students">Students</a>
+                    <a href="activities.html">Co-curricular Activities</a>
+                    <a href="tc.html">Transfer Certificate</a>
+                    <a href="gallery.html">Photo Gallery</a>
+                    <a href="news.html">News & Events</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Important</h3>
+                    <a href="disclosure.html">Mandatory Disclosure</a>
+                    <a href="fees.html">Fee Structure</a>
+                    <a href="rules.html">Rules & Regulations</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <div    class="footer-section">
+                    <h3>Contact Information</h3>
+                    <div class="contact-info">
+                        <i class="fas fa-school"></i>
+                        <span>Spring Valley Central School</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Lala Road, (NH 154), Niscintapur<br>Hailakandi, Assam - 788164</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-envelope"></i>
+                        <span>springvalley.assam@gmail.com</span>
+                    </div>
+                    <div class="contact-info">
+                        <i class="fas fa-globe"></i>
+                        <span>info@svcshailakandi.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Spring Valley Central School. All rights reserved. | Designed with ❤️ for Education</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
