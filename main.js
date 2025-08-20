@@ -77,7 +77,7 @@ function nextSlide() {
 }
 
 // Auto-advance slides
-setInterval(nextSlide, 5000);
+setInterval(nextSlide, 1500);
 
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
